@@ -1,5 +1,7 @@
 # Qwen3-TTS Server
 
+[![Deploy on RunPod](https://img.shields.io/badge/Deploy%20on-RunPod-blueviolet?logo=runpod)](https://console.runpod.io/deploy?template=h8fjq3psk4&ref=2vdt3dn9)
+
 A FastAPI-based text-to-speech server powered by Qwen3-TTS, featuring voice cloning, voice conversion, and multi-language support.
 
 ## Features
