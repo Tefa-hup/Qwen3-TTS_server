@@ -15,6 +15,9 @@ import numpy as np
 logging.basicConfig(level=logging.INFO)
 
 app = FastAPI()
+@app.get("/ping")
+def ping():
+    return {"status": "ok"}
 
 # Add CORS middleware
 app.add_middleware(
